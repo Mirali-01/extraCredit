@@ -1,0 +1,168 @@
+.bod {
+    /* background-color: #4381ad; */
+    color: #88181a;
+    /* background-image: url("https://assets.reedpopcdn.com/godofwarshare.jpg/BROK/thumbnail/1200x1200/quality/100/godofwarshare.jpg"); */
+    /* background-image: url("https://staticg.sportskeeda.com/editor/2022/04/3288e-16505331929402-1920.jpg"); */
+    background-image: url("https://www.glitched.online/wp-content/uploads/2019/04/550273-GodofWarDLC.jpg");
+    background-size: cover;
+}
+
+.navContainer {
+    /* border: solid navy; */
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Fix container so it stays on the left, and make map transparent */
+.mainContainer {
+    /* border: solid green; */
+    height: 250px;
+    margin-left: 55%;
+    /* width: 50%; */
+    background-image: url("https://wallpapercave.com/wp/wp6438069.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.mainContainer:hover {
+    opacity: 0.2;
+    transition: 2s;
+}
+
+.description {
+    /* border: solid red; */
+    /* width: 100%; */
+}
+
+.mainContainer,
+.description {
+    border-radius: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #4381ad;
+    font-weight: bold;
+    text-align: center;
+}
+
+.desc {
+    padding: 5%;
+}
+
+/* .mainImg {
+    height: 200px;
+} */
+
+.profileContainer {
+    border: solid snow;
+    background-color: black;
+    height: 80px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /*change back to space-between*/
+}
+
+.profileContainer:hover {
+    border: none;
+    background-color: transparent;
+    transition: 3s;
+}
+
+
+
+.profilePic:hover {
+    border: purple;
+    border-radius: 100%;
+    background-color: #4381ad;
+    opacity: 1;
+    transition: 4s;
+
+}
+
+.kratos {
+    height: 100%;
+
+}
+
+.currentTitle {
+    /* border: solid white; */
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgoldenrod;
+    /* padding-bottom: 10px; */
+}
+
+.btn {
+    /*nice looking button*/
+    color: #daa82a;
+    padding: 8px 25px;
+    background: transparent;
+    border: solid 2px #daa82a;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #88181a;
+    transition: 1s;
+}
+
+
+.slider {
+    /* border: solid red; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#prev,
+#next {
+    width: 80px;
+    cursor: pointer;
+}
+
+#next {
+    transform: rotate(180deg);
+}
+
+.preview {
+    display: flex;
+    align-items: center;
+
+}
+
+.bgChange,
+.active_bgChange {
+    width: 30px;
+    margin: 10px;
+    opacity: 0.85;
+}
+
+.active_bgChange {
+    display: block;
+    border: 3px solid white;
+    width: 60px;
+    opacity: 1;
+}
+
+/* .rightFlame:hover,
+.leftFlame:hover {
+    width: 100%;
+    opacity: 0;
+    transition: 3s;
+}
+
+.leftFlame {
+    -webkit-transform: scaleX(-1);
+} */
+
+.omega {
+    height: 100%;
+    width: 60px;
+    /* margin-top: 5px; */
+}
